@@ -4,12 +4,14 @@
   "description": "trying lambda with express framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-dev": "ENVIRONMENT='development' node index.js",
+    "start-prod": "ENVIRONMENT='production' node index.js"
   },
   "author": "GopAL",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "serverless-http": "^3.1.1"
   }
 }
