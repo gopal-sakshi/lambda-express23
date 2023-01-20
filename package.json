@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start-dev": "ENVIRONMENT='development' node index.js",
-    "start-prod": "ENVIRONMENT='production' node index.js"
+    "start-prod": "ENVIRONMENT='production' node index.js",
+    "zip23": "zip -r lambda_express23_zipped.zip .",
+    "zipExplained": "https://www.geeksforgeeks.org/zip-command-in-linux-with-examples/"
   },
   "author": "GopAL",
   "license": "ISC",
