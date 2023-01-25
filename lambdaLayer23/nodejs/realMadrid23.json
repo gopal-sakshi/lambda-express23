@@ -1,0 +1,11 @@
+{
+    "players": [
+        { "name": "courtois", "position": "GK", "country": "Belgium" },
+        { "name": "modric", "position": "Midfielder", "country": "Croatia" },
+        { "name": "benzema", "position": "striker", "country": "France" },
+        { "name": "vini", "position": "left winger", "country": "Brazil" },
+        { "name": "kroos", "position": "midfield", "country": "germany" }
+    ],
+    "manager": "Carlo Ancelotti",
+    "stadium": "Santiago Bernabeu"
+}
