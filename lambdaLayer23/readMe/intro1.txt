@@ -5,3 +5,12 @@ upload layers
 use
     require("/opt/nodejs/realMadrid23.json")        for json/data
     require("gopal612-module-lib")                  for npmjs_package
+==============================================================================
+
+the entire nodejs folder is zipped.
+Its contents are
+    node_modules
+    blah.js
+    ganitham11.js
+    package.json
+    realMadrid23.json
