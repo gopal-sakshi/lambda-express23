@@ -15,8 +15,8 @@ export const handler = async (event, context) => {
             ACL: 'public-read'
         };
         s3Thingy.send(new PutObjectCommand(obj23), (err) => {
-            if (err) console.log("ERR23 ===> ", err); reject('false phattu');
-            resolve('cinema hittu');
+            if (err) { console.log("ERR23 ===> ", err); reject('false phattu'); }
+            else { resolve('cinema hittu') };
         });
 
     });

@@ -1,0 +1,1 @@
+{"statusCode":200,"body":"cinema hittu","info23":"Successfully processed 1 records @ 2024-10-19T10:25:14.252Z"}
